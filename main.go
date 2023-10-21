@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	f, err := os.Open("/Volumes/G盘/18-人人都用得上的写作课/03｜躲雷指南：你一定要避开的4大写作误区.pdf")
+	f, err := os.Open("/Volumes/G盘/test/lcq.pdf")
 	if err != nil {
 		fmt.Println(err)
 		os.Exit(1)
